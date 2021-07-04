@@ -1,0 +1,78 @@
+input[type=text],input[type=tel],input[type=number],input[type=email] {
+    width: 30%;
+    padding: 5px 20px;
+    margin: 5px 0;
+    margin-left: 4rem;
+    border: 2px solid #ccc;
+    background-color: #f8f8f8;
+    box-sizing: border-box;
+  }
+
+input[type=button]{
+    width: 30%;
+    background-color: rgb(190, 221, 240);
+    color: rgb(34, 33, 31);
+    margin-left: 9rem;
+}
+
+textarea {
+    width: 40%;
+    height: 60px;
+    padding: 6px 40px;
+    box-sizing: border-box; 
+    border: 2px solid #ccc;
+    background-color: #f8f8f8;
+    border-radius: 3px;
+    resize: none;
+    margin-left: 4rem;
+
+  }
+
+   
+
+.container{
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(97, 168, 212);
+    
+
+}
+.container h1 {
+    text-align: center;
+}
+
+body{
+    background-color: rgb(82, 181, 228);
+    color: rgb(26, 25, 29);
+}
+
+
+
+.register {
+    box-shadow:  0 0 20px 0 rgb(75, 121, 146);
+    padding: 1em;
+    background-color: rgb(213, 223, 230);
+}
+.register > *{
+    padding: 1em;
+}
+
+.container .form .input_alanı {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+
+}
+.container .form .input_alanı .gender_sec select {
+    width: 100px;
+    margin-left: 4rem;
+}
+
+
+.container .form .input_alanı label{
+    
+    width: 50px;
+}
+
+
