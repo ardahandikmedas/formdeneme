@@ -14,10 +14,13 @@
     <div class="container"><h1>KAYIT FORMU</h1>
     <div class="register"><h2>Asagidaki bilgileri tamamlayınız</h2>
 
+    <form action="" onsubmit="return(validate());" name="valForm">
         <div class="form">
+            
             <div class="input_alanı">
                 <label for="fname">İsim</label>
                 <input type="text" id="fname">
+                <span id="nameError" style="display: none;color: red;">Hata</span>
             </div>
             <div class="input_alanı">
                 <label for="lname">Soyisim</label>
@@ -53,8 +56,9 @@
             <div class="input_alanı">
                 <input type="submit" value="Kaydol" id="kayitbuton">
             </div>
-        
+            
         </div>
+    </form>        
     </div>
 </div>
     
