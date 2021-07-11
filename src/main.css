@@ -9,16 +9,16 @@ input[type=text],input[type=tel],input[type=date],input[type=email] {
   }
 
 button[type=submit]{
-    width: 50%;
-    height: 50%;
+    width: 60%;
+    height: 30px;
     background-color: rgb(190, 221, 240);
     color: rgb(34, 33, 31);
-    margin-left: 9em;
+    margin-left: 10rem;
     
 }
 
 textarea {
-    width: 50%;
+    width: 60%;
     height: 60px;
     padding: 6px 40px;
     box-sizing: border-box; 
@@ -26,8 +26,7 @@ textarea {
     background-color: #f8f8f8;
     border-radius: 3px;
     resize: none;
-    margin-left: 4rem;
-
+    margin-left: 10rem;
   }
 
    
@@ -45,8 +44,9 @@ textarea {
 }
 
 body{
-    background-color: rgb(82, 181, 228);
+    background-color:blue;
     color: rgb(26, 25, 29);
+    
 }
 
 
@@ -60,6 +60,14 @@ body{
     padding: 1em;
 }
 
+.container .form1 .input_alanı1 label {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 100px;
+    
+    
+}
 .container .form .input_alanı {
     display: flex;
     align-items: center;
@@ -73,8 +81,8 @@ body{
     text-align: center;
     font-size: large;
     color: cornsilk;
-    transition: all 0.5s ease;
-
+    transition: all 0.5s ease;       
+    
 }
 
 .container .form{
@@ -84,13 +92,12 @@ body{
 }
 
 
+
 .form .input_alanı error-msg{
     font-size: 10px;
     padding-top: 8px;
     display: block;
-    color: brown;
-   
-    
+    color: brown; 
     
 }
 .form .input_alanı{
@@ -107,6 +114,7 @@ body{
     width: 100px;
     margin-left: 4rem;
 }
+
 
 
 .container .form .input_alanı label{
@@ -128,9 +136,7 @@ body{
         width: 70px;
         
     }    
-    .container .form .input_alanı button[type=submit]{
-        height: 30px;
-    }
+    
     
     
 }
